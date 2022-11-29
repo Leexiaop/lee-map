@@ -142,7 +142,7 @@ module.exports = {
         'no-useless-constructor': 'off',
         'no-redeclare': 'off',
         'no-constant-condition': 'off',
-        'global-require': 'warn',
+        'global-require': 'off',
         'comma-style': 'off',
         'line-comment-position': 'off',
         'no-tabs': 'off',
@@ -191,7 +191,7 @@ module.exports = {
         'brace-style': 'error',
         'max-statements': [
             'warn',
-            40,
+            240,
             {
                 ignoreTopLevelFunctions: true
             }

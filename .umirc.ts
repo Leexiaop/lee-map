@@ -29,15 +29,9 @@ export default defineConfig({
 	],
 	proxy: {
 		'/api': {
-			'target': 'https://mapstyle.baidu.com/',
+			'target': 'https://120.48.89.210:8080/',
 			'changeOrigin': true,
 			'pathRewrite': { '^/api' : '' },
-		},
-		'/render-style/api': {
-			'target': 'http://fanlu01.bcc-bdbl.baidu.com:8081/',
-			// 'target': 'http://wupeng17.bcc-gzbh.baidu.com:8090',
-			'changeOrigin': true,
-			'pathRewrite': { '^/render-style/api' : '' },
-		},
+		}
 	}
 });
