@@ -42,13 +42,13 @@ export default [
     {
         path: '/threejs/points',
         component: '@/pages/Threejs/Points/index',
-        label: '点材质',
+        label: '星光材质案例',
         key: '5-7'
     },
     {
-        path: '/threejs/points',
-        component: '@/pages/Threejs/Points/index',
-        label: '星光案例',
+        path: '/threejs/particles',
+        component: '@/pages/Threejs/Particles/index',
+        label: '星河案例',
         key: '5-8'
     }
 ];
